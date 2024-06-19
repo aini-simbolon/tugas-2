@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {text-decoration: none;
+}
+a :hover {
+    color: fuchsia;
+}
+
+.parent-nav div {
+    display: flex;
+    border: 1px;
+    align-items: center ;
+    justify-content: center;
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    height: 5vh;
+    
+}
+
+.parent-nav .nav-logo {
+    border: 1px;
+    flex-grow: 30;
+    justify-content: left;
+}
+
+.parent-nav .nav-menu .nav-menu-child-1 {
+    border: 10px;
+    flex-grow: 1;
+}
+
+.parent-nav .nav-menu .nav-menu-child-2 {
+    border: 10px;
+    flex-grow: 1;
+}
+
+.parent-nav .nav-menu .nav-menu-child-3 {
+    border: 10px;
+    flex-grow: 1;
+}
+
